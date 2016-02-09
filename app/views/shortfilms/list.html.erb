@@ -1,0 +1,10 @@
+<%= link_to "New Shortfilms", shortfilms_new_path %>
+<h1>Shortfilms#list</h1>
+
+<% @sf.each do |i| %>
+	Name: <%= i.name %><br/>
+	Duration: <%= i.duration %><br />
+	Language: <%= i.language %><br />
+	Banner: <%= i.banner %><br />
+	<p>----------------------------<p>
+<% end %>

@@ -1,0 +1,7 @@
+<h1>Casts#new</h1>
+
+<%= form_for @cast , url: {:action => 'create'} do |f| %>
+	EnterName: <%= f.text_field :name %> <br />
+	EnterRole: <%= f.text_field :role %><br />
+	<%= f.submit %>
+<% end %>
