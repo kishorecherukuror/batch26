@@ -17,5 +17,6 @@ class ShortfilmsController < ApplicationController
   end
 
   def show
+    puts "kishore"
   end
 end
