@@ -1,6 +1,6 @@
 class ShortfilmsController < ApplicationController
   def new
-  	@a = 20
+  	@a = 2
   end
 
   def create
